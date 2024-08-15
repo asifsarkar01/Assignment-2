@@ -3,6 +3,123 @@
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* header navbar style  */
+
+.container-1{
+
+    background-color: rgb(17, 17, 17);
+    height: 715px;
+    
+
+}
+
+.nav-main{
+
+display: flex;
+justify-content: space-between;
+padding: 20px 0;
+margin: 0 auto;
+max-width: 1000px;
+
+}
+  .nav-left{
+color: #E6533C;
+  }
+  .nav-right{
+    
+  }
+  .nav-btn-Home{
+    background-color: #E6533C;
+    margin-right: 47px;
+    padding: 10px 20px ;
+    color: #ffff;
+    border-radius: 44px;
+    font-size: 16px;
+  }
+  .nav-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 47px;
+    color:#ffff;
+  }
+
+  /* header content style here  */
+.header-main{
+
+display: flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+gap: 71px;
+}
+.header-left{
+
+width: 50%;
+color: #ffff;
+}
+
+.header-img{
+
+width: 50%;
+}
+.video-tutorial{
+    background-color: rgba(48, 48, 48, 0.54);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+margin-top:-190px;
+}
+#experience-badge{
+    padding: 21px 53px;
+    font-size: 1rem;
+    font-weight: 400;
+  
+  
+}
+#experience-year{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffff;
+    
+}
+.workout{
+    position: absolute;
+width: 193px;
+height: 98px;
+left: 908px;
+top: 260px;
+background-color:rgba(48, 48, 48, 0.54) ;
+border-radius: 12px;
+backdrop-filter: blur(20px);
+}
+
+
+.btn{
+    margin-right: 47px;
+    padding: 10px 20px ;
+    background-color: rgba(255, 255, 255, 0.122);
+    border-radius: 42px;;
+    border-radius: 44px;
+    font-size: 16px;
+    color: #ffff;
+}
+.title-1{
+    margin-bottom: 30px;
+    font-size: 78px;
+}
+.title-2{
+    margin-bottom: 28px;
+    opacity: 0.5;
+}
+
+
+    
