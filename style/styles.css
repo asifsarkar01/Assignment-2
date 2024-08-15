@@ -188,4 +188,95 @@ color: #ffff;
 height: 312px;
 border-radius: 18px;
  }
- 
+ /* Table form style  */
+.table-content{
+    background-color: rgb(34, 34, 34);
+    margin-top: 88px; 
+
+}
+.table-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+gap: 100px;
+
+}
+table{
+    border-collapse:  collapse;
+
+}
+td,th{
+    border:1px solid gray;
+    padding: 8px 10px;}
+
+
+
+input,select{
+   background-color:rgba(255, 255, 255, 0.1);
+   padding: 12px 20px;
+   border-radius: 8px;
+  margin-top: 9px;
+
+   
+}
+
+/* About us style */
+
+.about-us{
+    max-width: 1000px;
+   margin: 0 auto;
+   display: grid;
+  
+}
+.main-heading{
+   color: #ffff;
+   text-align: center;
+    align-items: center;
+    margin-bottom: 29px;
+    margin-top: 40px;
+}
+.pargraph{
+    color:rgba(255, 255, 255, 0.5);
+}
+.online-main{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.1);
+grid-template-areas: "a b c";
+display: grid;
+
+}
+.image-2{
+    gap: 30px;
+
+}
+.online-card{
+
+}
+.card-1{
+grid-area: a;
+
+}
+.card-2{
+grid-area: b;
+}
+.card-3{
+grid-area: c;
+}
+.online-main-2{
+    background: rgba(255, 255, 255, 0.1);
+    grid-template-areas: "a b c";
+    display: grid;
+    gap: 10px;
+   
+}
+
+
+.heading-h4{
+    color: #ffff;
+    margin-top: -70px;
+}
+.heading-p{
+   color: rgba(255, 255, 255, 0.5); 
+}
