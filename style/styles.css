@@ -121,5 +121,47 @@ backdrop-filter: blur(20px);
     opacity: 0.5;
 }
 
+/* Main styles start here  */
+    main{
+      
+        background-color: rgb(17, 17, 17) ;
+    }
+    .container-2{
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .habits{
+display: flex;
+justify-content: center;
+color: #ffff;
 
-    
+    }
+ .gym{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+ } 
+ .facts-container{
+    display: flex;
+    gap: 40px;
+    margin: 58px;
+ }  
+ .fact-icon{
+    border-radius: 107px;
+ }
+ .fact-number{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }
+ .fact-name{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 6px;
+ }
+ 
