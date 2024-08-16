@@ -18,7 +18,7 @@
 
     background-color: rgb(17, 17, 17);
     height: 715px;
-    /* width: 100%; */
+     /* width: 100%;  */
 
 }
 
@@ -30,6 +30,10 @@ padding: 20px 0;
 margin: 0 auto;
 max-width: 1000px;
 
+}
+.nav-right .icon{
+display: none;
+color: #fff;
 }
   .nav-left{
 color: #E6533C;
@@ -333,3 +337,7 @@ align-items: center;
 color:rgba(255, 255, 255, 0.5) ;
 width: 100%;
 }
+
+.img-responsive{
+    max-width: 100%;
+  }
