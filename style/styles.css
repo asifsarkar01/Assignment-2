@@ -18,7 +18,7 @@
 
     background-color: rgb(17, 17, 17);
     height: 715px;
-    
+    /* width: 100%; */
 
 }
 
@@ -51,6 +51,8 @@ color: #E6533C;
     margin-right: 47px;
     color:#ffff;
   }
+
+
 
   /* header content style here  */
 .header-main{
