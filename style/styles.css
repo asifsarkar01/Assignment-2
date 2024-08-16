@@ -269,6 +269,7 @@ grid-area: c;
     grid-template-areas: "a b c";
     display: grid;
     gap: 10px;
+    height: 315px;
    
 }
 
@@ -279,4 +280,56 @@ grid-area: c;
 }
 .heading-p{
    color: rgba(255, 255, 255, 0.5); 
+}
+
+/* section style  */
+
+footer{
+    background-color: rgb(34, 34, 34);
+}
+
+.last-part, .horizon-line{
+   
+max-width: 1000px;
+margin: 0 auto;
+   
+}
+.section-1{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+.last-div{
+     /* border: 5px solid red;   */
+    display: flex;
+    justify-content: space-between;
+    gap: 198px;
+}
+
+.list-a,li{
+list-style: none;
+margin: 9px;
+margin-bottom: 20px;
+}
+.last-div-2{
+    gap: 109px;
+
+}
+#attribute{
+    text-decoration: none;
+  color:rgba(255, 255, 255, 0.5);
+  
+}
+
+.container{
+max-width: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+ /* margin-left: 190px;  */
+ margin-top: 50px;
+color:rgba(255, 255, 255, 0.5) ;
+width: 100%;
 }
